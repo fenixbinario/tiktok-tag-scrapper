@@ -1,0 +1,22 @@
+{
+  "name": "tiktok-tag-scrapper",
+  "version": "1.0.0",
+  "description": "search on tiktok and return json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenixbinario/tiktok-tag-scrapper.git"
+  },
+  "keywords": [
+    "tiktok"
+  ],
+  "author": "@fenixbinario",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fenixbinario/tiktok-tag-scrapper/issues"
+  },
+  "homepage": "https://github.com/fenixbinario/tiktok-tag-scrapper#readme"
+}
