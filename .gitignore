@@ -3,3 +3,9 @@
 
 # Visual Studio
 .vscode
+
+# node
+/node_modules
+
+# cache package
+package-lock.json

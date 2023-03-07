@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/fenixbinario/tiktok-tag-scrapper/issues"
   },
-  "homepage": "https://github.com/fenixbinario/tiktok-tag-scrapper#readme"
+  "homepage": "https://github.com/fenixbinario/tiktok-tag-scrapper#readme",
+  "dependencies": {
+    "puppeteer": "^19.7.3"
+  }
 }
