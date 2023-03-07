@@ -9,3 +9,6 @@
 
 # cache package
 package-lock.json
+
+# file return
+tiktok.json
