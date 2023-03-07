@@ -2,13 +2,16 @@
 [![Build status](https://github.com/puppeteer/puppeteer/workflows/CI/badge.svg)](https://github.com/puppeteer/puppeteer/actions?query=workflow%3ACI)
 [![npm puppeteer package](https://img.shields.io/npm/v/puppeteer.svg)](https://npmjs.org/package/puppeteer)
 
+## REQUIREMENT
+[INSTALL NPM & NODE](https://nodejs.org/en/download/)
+
 ## DESCRIPTION
 `Search info on www.tiktok.com`
 
 ## SETUP
-#### - TERMINAL
+#### - NODE
 ```bash
-        npm i puppeteer
+       $ npm i puppeteer
 ```
 #### - INDEX.JS
 Modified this line in your code
