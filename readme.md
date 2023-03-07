@@ -11,7 +11,7 @@
 ## SETUP
 #### - NODE
 ```bash
-       $ npm i puppeteer
+      $ npm i puppeteer
 ```
 #### - INDEX.JS
 Modified this line in your code
@@ -22,7 +22,7 @@ var fileJson = "tiktok.json";
 
 ## RUN
 ```bash
-        npm start
+      $ npm start
 ```
 ## SCREENSHOT
 Generated screenshot on `/public` folder.
