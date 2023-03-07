@@ -1,7 +1,13 @@
 /*
 Autor: @fenixbinario
-w3: fenixbinairo.com
+w3: fenixbinario.com
 */
+// Change your SEARCH
+var tagSearch = "developer";
+// Change your file .json
+var fileJson = "tiktok.json";
+
+// Script Tiktok Tag Scrapper
 const puppeteer = require('puppeteer'); // v13.0.0 or later
 const fs = require('fs'); 
 
@@ -55,7 +61,7 @@ const loadCookie = async (page) => {
         const promises = [];
         
         promises.push(targetPage.waitForNavigation());
-        await targetPage.goto('https://www.tiktok.com/tag/viral?lang=en');
+        await targetPage.goto('https://www.tiktok.com/tag/' + tagSearch + '?lang=en');
         const cookies = await targetPage.cookies();
         /*
         fs.writeFile('cookies.json', JSON.stringify(cookies),'utf8', (err) => { 
@@ -162,7 +168,7 @@ const enlaces = await page.evaluate(() => {
 
     }
     console.log(videos);
-    fs.writeFile('tiktok.json', JSON.stringify(videos),'utf8', (err) => { 
+    fs.writeFile(fileJson, JSON.stringify(videos),'utf8', (err) => { 
         if (err) throw err; 
         console.log('The file has been saved!'); 
       }); 
