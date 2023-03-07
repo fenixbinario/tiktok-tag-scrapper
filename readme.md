@@ -18,6 +18,7 @@ Generated screenshot on `/public` folder.
 Generated `tiktok.json` on root path.
 
 ## TO DO:
+- [x] Screenshot Status --> done
 - [x] Tag list Scrapper --> done
 - [ ] Tag Scrapper --> Future
 - [ ] Comment Scrapper --> Future
