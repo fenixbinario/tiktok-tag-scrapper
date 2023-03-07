@@ -4,9 +4,13 @@
 `Search info on www.tiktok.com`
 
 ## SETUP
+### Terminal
 ```bash
         npm i puppeteer
 ```
+### index.js
+Modified `var tag = "yourSearchTagName"`;
+
 ## RUN
 ```bash
         npm start
