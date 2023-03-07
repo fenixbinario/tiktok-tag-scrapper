@@ -4,12 +4,16 @@
 `Search info on www.tiktok.com`
 
 ## SETUP
-### Terminal
+#### - TERMINAL
 ```bash
         npm i puppeteer
 ```
-### index.js
-Modified `var tag = "yourSearchTagName"`;
+#### - INDEX.JS
+Modified this line in your code
+```
+var tagSearch = "yourSearchTagName";
+var fileJson = "tiktok.json";
+```
 
 ## RUN
 ```bash
@@ -19,7 +23,7 @@ Modified `var tag = "yourSearchTagName"`;
 Generated screenshot on `/public` folder.
 
 ### JSON
-Generated `tiktok.json` on root path.
+Generated file `tiktok.json` on root path.
 
 ## TO DO:
 - [x] Screenshot Status --> done
